@@ -1,0 +1,200 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+
+  <title>TensorFlow Team|DIT ETE|.</title>
+  <meta content="" name="description">
+  <meta content="" name="keywords">
+
+  <!-- Favicons -->
+  <link href="{% static 'img/lg.jpeg' %}" rel="icon" alt="" class="avatar rounded-circle">
+  <link href="{% static 'img/lg.jpeg' %}" rel="icon" alt="" class="avatar rounded-circle">
+
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin> 
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
+
+  <!-- Vendor CSS Files -->
+  <link href="{% static 'vendor/bootstrap/css/bootstrap.min.css' %}" rel="stylesheet">
+  <link href="{% static 'vendor/bootstrap-icons/bootstrap-icons.css' %}" rel="stylesheet">
+  <link href="{% static 'vendor/aos/aos.css' %}" rel="stylesheet">
+  <link href="{% static 'vendor/glightbox/css/glightbox.min.css' %}" rel="stylesheet">
+  <link href="{% static 'vendor/swiper/swiper-bundle.min.css' %}" rel="stylesheet">
+  <link href="{% static 'vendor/remixicon/remixicon.css' %}" rel="stylesheet">
+
+  <!-- Template Main CSS File -->
+  <link href="{% static 'css/main.css' %}" rel="stylesheet"> 
+</head>
+
+<body class="page-index">
+
+  <!-- ======= Header ======= -->
+  <header id="header" class="header d-flex align-items-center fixed-top">
+    <div class="container-fluid container-xl d-flex align-items-center justify-content-between">
+
+       <a href="index.html" class="logo d-flex align-items-center"> 
+        <img src="{% static 'img/lg.jpeg' %}" alt="" class="avatar rounded-circle"><h1 class="d-flex align-items-center">TensorMembers</h1>
+      </a>
+
+      <i class="mobile-nav-toggle mobile-nav-show bi bi-list"></i>
+      <i class="mobile-nav-toggle mobile-nav-hide d-none bi bi-x"></i>
+
+      <nav id="navbar" class="navbar">
+        <a href="#index.html">Home</a></li>
+		<a href="#about-us">About us</a></li>
+        <a href="#our-goals">Our Goals</a></li>
+		<a href="login.py">Login</a></li>
+       
+      </nav> 
+    </div>
+  </header><!-- End Header -->
+
+  <!-- ======= Hero Section ======= -->
+  <section id="hero" class="hero d-flex align-items-center">
+    <div class="container">
+      <div class="row">
+        <div class="col-xl-4">
+		<blockquote>
+          <h3 data-aos="fade-up">AI & Machinery learning group</h3>
+          
+          </blockquote>
+          <div class="d-flex" data-aos="fade-up" data-aos-delay="200">
+            <a href="page/login.php" class="btn-get-started">Join TensorMembers</a>
+          </div>
+
+        </div>
+      </div>
+    </div>
+  </section><!-- End Hero Section -->
+
+  <main id="main">
+    <!-- About Us Section -->
+<section id="about-us" class="about-us section-bg">
+  <div class="container" data-aos="fade-up">
+    <div class="section-header">
+      <h2>About Us</h2>
+    </div>
+    <div class="row">
+      <div class="col-lg-3 col-md-6 d-flex align-items-stretch">
+        <div class="member" data-aos="fade-up" data-aos-delay="100">
+          <div class="member-img">
+            <img src="{% static 'img/team/natasha.jpg' %}" class="img-fluid" alt="">
+          </div>
+          <div class="member-info">
+            <h4>Natasha</h4>
+            <span>Project: Image Recognition</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-lg-3 col-md-6 d-flex align-items-stretch">
+        <div class="member" data-aos="fade-up" data-aos-delay="200">
+          <div class="member-img">
+            <img src="{% static 'img/team/godwin.jpg' %}" class="img-fluid" alt="">
+          </div>
+          <div class="member-info">
+            <h4>Godwin </h4>
+            <span>Project:Industrial predictive Maintenance using ML</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-lg-3 col-md-6 d-flex align-items-stretch">
+        <div class="member" data-aos="fade-up" data-aos-delay="300">
+          <div class="member-img">
+            <img src="{% static 'img/team/tumaini.png' %}" class="img-fluid" alt="">
+          </div>
+          <div class="member-info">
+            <h4>Tumaini</h4>
+            <span>Project: user profilling model</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-lg-3 col-md-6 d-flex align-items-stretch">
+        <div class="member" data-aos="fade-up" data-aos-delay="400">
+          <div class="member-img">
+            <img src="{% static 'img/team/shuma.jpg' %}" class="img-fluid" alt="">
+          </div>
+          <div class="member-info">
+            <h4>Edward</h4>
+            <span>Project: Chatbots</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-lg-12">
+       <p>Meet our team members, Natasha, Godwin, Tumaini, and Edward.From Dar es salaam institute of technology (DIT) under departnent of electronics and telecommunication engineerings in our third year studies, We are passionate about using AI and machine learning techniques to solve real-world problems.</p>
+      </div>
+    </div>
+  </div>
+</section><!-- End About Us Section -->
+<!-- Our Goals Section -->
+<section id="our-goals" class="our-goals">
+  <div class="container" data-aos="fade-up">
+    <div class="section-header">
+      <h2>Our Goals</h2>
+    </div>
+    <div class="row">
+      <div class="col-lg-12">
+	  <strong><h3> upon completing these module we should be able to</h3></strong>
+        <ul>
+          <li>
+            <p> Apply AI and machine learning algorithms to analyze large datasets. This involves utilizing advanced statistical techniques and machine learning models to derive insights and patterns from vast amounts of data.</p>
+          </li>
+          <li>
+            <p> Develop predictive models tailored for various industries, including healthcare, finance, and transportation. These models will enable us to forecast trends, identify risks, and make informed decisions based on data-driven insights.</p>
+          </li>
+          <li>
+            <p> Conduct research on cutting-edge AI technologies and methodologies. By staying abreast of the latest advancements in the field, we can continuously enhance our capabilities and contribute to the advancement of AI.</p>
+          </li>
+          <li>
+            <p> Collaborate with industry partners to implement AI solutions. By working closely with organizations across different sectors, we can develop customized AI solutions that address specific challenges and deliver tangible value.</p>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</section><!-- End Our Goals Section -->
+
+
+    
+  </main><!-- End #main -->
+
+  <!-- ======= Footer ======= -->
+  <footer id="footer" class="footer"> 
+
+    <div class="footer-legal">
+      <div class="container">
+        <div class="copyright">
+         &copy; <?php echo date('Y'); ?> Copyright  <strong><span>TensorMembers</span></strong>
+        </div>
+        <div class="credits"> 
+          Designed by <a href="https://www.linkedin.com/in/godwin-aruga">ETE Group 4</a>
+        </div>
+      </div>
+    </div>
+  </footer> 
+
+  <a href="#" class="scroll-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
+
+  <div id="preloader"></div>
+
+  <!-- Vendor JS Files -->
+  <script src="{% static 'vendor/bootstrap/js/bootstrap.bundle.min.js' %}"></script>
+  <script src="{% static 'vendor/aos/aos.js' %}"></script>
+  <script src="{% static 'vendor/glightbox/js/glightbox.min.js' %}"></script>
+  <script src="{% static 'vendor/swiper/swiper-bundle.min.js' %}"></script>
+  <script src="{% static 'vendor/isotope-layout/isotope.pkgd.min.js' %}"></script>
+  <script src="{% static 'vendor/php-email-form/validate.js' %}"></script>
+
+  <!-- Template Main JS File -->
+  <script src="{% static 'js/main.js' %}"></script>
+</body>
+
+</html>
