@@ -1,0 +1,14 @@
+{% extends 'masterpage.html' %}
+
+{% block content %}
+<section id="members">
+    <div class="container">
+        <h2>Members</h2>
+        <ul>
+            {% for member in members %}
+            <li>{{ member.name }} - {{ member.email }}</li>
+            {% endfor %}
+        </ul>
+    </div>
+</section>
+{% endblock %}

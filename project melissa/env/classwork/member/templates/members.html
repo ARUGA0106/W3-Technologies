@@ -1,0 +1,16 @@
+{% extends 'masterpage.html' %}
+
+{% block content %}
+<section id="members">
+    <div class="container">
+        <h2>Members</h2>
+        <ul>
+            {% for member in members %}
+            <li>{{ member.firstname }} {{ member.lastname }} - {{ member.registration_number }} - Project: {{ member.project }}</li>
+            {% endfor %}
+        </ul>
+        <a href="{% url 'download_csv' %}" class="btn btn-primary">Download CSV</a>
+    </div>
+</section>
+{% endblock %}
+
