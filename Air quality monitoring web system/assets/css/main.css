@@ -120,6 +120,7 @@ section {
   color: var(--color-primary);
 }
 
+
 .breadcrumbs ol a {
   color: rgba(255, 255, 255, 0.8);
   transition: 0.3s;
@@ -229,6 +230,7 @@ section {
 @media (max-width: 1200px) {
   .header {
     padding: 12px 0;
+	background-color: purple;
   }
 }
 

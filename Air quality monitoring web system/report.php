@@ -1,5 +1,5 @@
 <?php include 'db.php';  
-include('head.php'); 
+ 
 ?>
 
 <!DOCTYPE html>
@@ -30,11 +30,10 @@ include('head.php');
 
             <nav id="navbar" class="navbar">
                 <a href="index.php"><span>Home</span></a>
-                <a href="status.php"><span>Status</span></a>
-                <a href="page/Auditor.php">Daily Audit</a>
-                <a href="https://aqicn.org/map/world">Pollution Maps</a>
-                <a href="contact.php">Contact</a>
-                <a href="report.php">Report Extreme Pollution</a>
+                <a href="map.php"><span>Map</span></a>
+                <a href="visual.php">reports</a>
+                <a href="">Contact</a>
+                <a href="">Report Extreme Pollution</a>
             </nav>
         </div>
     </header><!-- End Header -->
