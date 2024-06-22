@@ -24,6 +24,7 @@ Welcome to the DIT Air Quality Monitoring Center project. This web application i
 - Data visualization
 - API for accessing and manipulating air quality data
 - User authentication and authorization
+- sensor Mapping and Tracking
 
 ## Installation Guide
 
@@ -31,6 +32,7 @@ Welcome to the DIT Air Quality Monitoring Center project. This web application i
 - XAMPP (for Apache and MySQL)
 - Git
 - Postman (for API testing)
+- leaflet API
 
 ### Installing XAMPP
 1. **Download XAMPP**
